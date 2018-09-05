@@ -2,8 +2,8 @@
 output: github_document
 params:
     className: LearningR
-    organizer: "[Lander Analytics](www.landeranalytics.com)"
-    packages: !r c('here', 'knitr', 'rmarkdown', 'tidyverse', 'usethis')
+    organizer: "[Columbia Business School](https://www8.gsb.columbia.edu/courses/mba/2018/fall/b8144-001)"
+    packages: !r c('coefplot', 'DBI', 'dbplyr', 'devtools', 'DT', 'dygraphs', 'ggthemes', 'glmnet', 'here', 'jsonlite', 'knitr', 'plotly', 'reshape2', 'rmarkdown', 'RSQLite', 'rvest', 'shiny', 'shinyjs', 'shinythemes', 'tidyverse', 'useful', 'usethis', 'UsingR', 'xgboost')
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
@@ -34,15 +34,15 @@ organizer <- params$organizer
 packages <- sort(params$packages)
 ```
 
-# Live Training
+# Introduction to R
 
-This is an empty repo to initialize an R project for training courses organized by `r organizer`.
+This is an empty repo to initialize an R project for the [Introduction to R](https://www8.gsb.columbia.edu/courses/mba/2018/fall/b8144-001) Class at Columbia Business School.
 
 Please follow all instructions to set up your environment for the training.
 
 # Packages
 
-To get started run the following code to install the latest version of the necessary packages.
+To get started run the following code in the R console to install the latest version of the necessary packages. Be sure to have a recent version of R, such as 3.5.1.
 
 <div class='sourceCode'><pre class='sourceCode r'><code class='sourceCode r'>
 packages <- `r sprintf("c(\n\t'%s'\n)", paste(packages, collapse="', \n\t'"))`
@@ -51,7 +51,7 @@ install.packages(packages)
 
 # Project Structure
 
-Making use of RStudio projects greatly improves the user experience. To facilitate this users should run the following code which will recreate this project on their computer. Be sure to select the positive prompts such as `yes`, `yeah`, etc.
+Making use of [RStudio projects](https://support.rstudio.com/hc/en-us/articles/200526207-Using-Projects) greatly improves the user experience. To facilitate this users should run the following code which will recreate this project on their computer. Be sure to select the positive prompts such as `yes`, `yeah`, etc.
 
 ```r
 newProject <- usethis::use_course('https://github.com/jaredlander/`r className`/archive/master.zip')
