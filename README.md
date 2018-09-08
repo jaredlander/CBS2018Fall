@@ -60,7 +60,7 @@ computer. Be sure to select the positive prompts such as `yes`, `yeah`,
 etc.
 
 ``` r
-newProject <- usethis::use_course('https://github.com/jaredlander/LearningR/archive/master.zip')
+newProject <- usethis::use_course('https://github.com/jaredlander/CBS2018Fall/archive/master.zip')
 ```
 
 <!-- After that runs successfully you will have a new folder holding the R project that looks like this (the name in the image may be different). -->
@@ -72,8 +72,8 @@ newProject <- usethis::use_course('https://github.com/jaredlander/LearningR/arch
 <!-- ``` -->
 
 After running this code you will be in an RStudio Project called
-LearningR. You can see this in the top right of RStudio (the name in the
-image may be different).
+CBS2018Fall. You can see this in the top right of RStudio (the name in
+the image may be different).
 
 ![](images/ProjectCorner.png)<!-- -->
 

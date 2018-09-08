@@ -1,7 +1,7 @@
 ---
 output: github_document
 params:
-    className: LearningR
+    className: CBS2018Fall
     organizer: "[Columbia Business School](https://www8.gsb.columbia.edu/courses/mba/2018/fall/b8144-001)"
     packages: !r c('coefplot', 'DBI', 'dbplyr', 'devtools', 'DT', 'dygraphs', 'ggthemes', 'glmnet', 'here', 'jsonlite', 'knitr', 'plotly', 'reshape2', 'rmarkdown', 'RSQLite', 'rvest', 'shiny', 'shinyjs', 'shinythemes', 'tidyverse', 'useful', 'usethis', 'UsingR', 'xgboost')
 ---
